@@ -58,11 +58,14 @@ CORS_ALLOW_ALL_ORIGINS = True  # If this is used then `CORS_ALLOWED_ORIGINS` wil
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
-    'http://localhost:8081'
+    'http://localhost:8081',
+    'https://front-test.azizt20.uz'
+    
 ]
 CORS_ALLOWED_ORIGIN_REGEXES = [
     'http://localhost:8080',
-    'http://localhost:8081'
+    'http://localhost:8081',
+    'https://front-test.azizt20.uz'
 ]
 
 
